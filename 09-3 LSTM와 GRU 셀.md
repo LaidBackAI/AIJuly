@@ -39,8 +39,8 @@ plt.ylabel('loss')
 plt.legend(['train', 'val'])
 plt.show()
 ```
+![Untitled](https://user-images.githubusercontent.com/87055471/129478843-917ba966-962c-483f-b230-6231e2a4a1aa.png)
 
-![09-3%20LSTM%E1%84%8B%E1%85%AA%20GRU%20%E1%84%89%E1%85%A6%E1%86%AF%202daff96f0d60445bac935633b541f160/Untitled.png](09-3%20LSTM%E1%84%8B%E1%85%AA%20GRU%20%E1%84%89%E1%85%A6%E1%86%AF%202daff96f0d60445bac935633b541f160/Untitled.png)
 
 ```python
 # 순환층에 드롭아웃 적용하기
@@ -66,8 +66,7 @@ plt.ylabel('loss')
 plt.legend(['train', 'val'])
 plt.show()
 ```
-
-![09-3%20LSTM%E1%84%8B%E1%85%AA%20GRU%20%E1%84%89%E1%85%A6%E1%86%AF%202daff96f0d60445bac935633b541f160/Untitled%201.png](09-3%20LSTM%E1%84%8B%E1%85%AA%20GRU%20%E1%84%89%E1%85%A6%E1%86%AF%202daff96f0d60445bac935633b541f160/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/87055471/129478855-e225bbad-c51b-441d-846c-54a366544a4a.png)
 
 ```python
 # 2개의 층을 연결하기
@@ -96,8 +95,8 @@ plt.ylabel('loss')
 plt.legend(['train', 'val'])
 plt.show()
 ```
+![Untitled 2](https://user-images.githubusercontent.com/87055471/129478865-8f95ac5a-5f4f-478d-bfc4-87c9d016d12b.png)
 
-![09-3%20LSTM%E1%84%8B%E1%85%AA%20GRU%20%E1%84%89%E1%85%A6%E1%86%AF%202daff96f0d60445bac935633b541f160/Untitled%202.png](09-3%20LSTM%E1%84%8B%E1%85%AA%20GRU%20%E1%84%89%E1%85%A6%E1%86%AF%202daff96f0d60445bac935633b541f160/Untitled%202.png)
 
 ```python
 # GRU 신경망 훈련하기
@@ -125,8 +124,8 @@ plt.ylabel('loss')
 plt.legend(['train', 'val'])
 plt.show()
 ```
+![Untitled 3](https://user-images.githubusercontent.com/87055471/129478868-483e3c7e-0a7b-4ab8-abbb-6c9a27f42f5e.png)
 
-![09-3%20LSTM%E1%84%8B%E1%85%AA%20GRU%20%E1%84%89%E1%85%A6%E1%86%AF%202daff96f0d60445bac935633b541f160/Untitled%203.png](09-3%20LSTM%E1%84%8B%E1%85%AA%20GRU%20%E1%84%89%E1%85%A6%E1%86%AF%202daff96f0d60445bac935633b541f160/Untitled%203.png)
 
 순환 신경망에서 가장 인기 있는 LSTM와 GRU 셀에 대해 배웠다. 또 순환층에 드롭아웃을 적용해 보았고 2개의 순환층을 쌓는 방법에 대해 알아보았다.
 
